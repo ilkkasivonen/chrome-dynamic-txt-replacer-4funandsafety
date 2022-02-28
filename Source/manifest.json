@@ -1,14 +1,13 @@
 {
-	"manifest_version": 1,
-	"name": "What-Putin-really-is",
-	"version": "0.1",
-	"description": "Keeps things real",
-	"content_scripts":
-	[
-		{
-			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
-			"run_at": "document_end"
-		}
-	]
+    "manifest_version": 2,
+    "name": "What-Putin-really-is",
+    "version": "0.1",
+    "description": "Keeps things real",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content_script.js"],
+            "run_at": "document_end"
+        }
+    ]
 }
