@@ -39,8 +39,6 @@ function handleText(textNode)
 	v = v.replace(/\bPresidentti Putin\b/g, "sotarikollinen Putin");
 	v = v.replace(/\bPresidentti Vladimir Putin\b/g, "sotarikollinen Putin");
 	v = v.replace(/\bpresidentti Vladimir Putin\b/g, "sotarikollinen Putin");
-	v = v.replace(/\bJosh\b/g, "Jerry");
-	v = v.replace(/\bjosh\b/g, "jerry");
 
 	textNode.nodeValue = v;
 }
