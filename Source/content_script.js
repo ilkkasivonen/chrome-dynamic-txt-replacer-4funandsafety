@@ -31,8 +31,14 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bJoshua\b/g, "Jerrold");
-	v = v.replace(/\bjoshua\b/g, "jerrold");
+	v = v.replace(/\bPresident Putin\b/g, "war criminal Putin");
+	v = v.replace(/\bpresident Putin\b/g, "war criminal Putin");
+	v = v.replace(/\bPresident Vladimir Putin\b/g, "war criminal Putin");
+	v = v.replace(/\bpresident Vladimir Putin\b/g, "war criminal Putin");
+	v = v.replace(/\bpresidentti Putin\b/g, "sotarikollinen Putin");
+	v = v.replace(/\bPresidentti Putin\b/g, "sotarikollinen Putin");
+	v = v.replace(/\bPresidentti Vladimir Putin\b/g, "sotarikollinen Putin");
+	v = v.replace(/\bpresidentti Vladimir Putin\b/g, "sotarikollinen Putin");
 	v = v.replace(/\bJosh\b/g, "Jerry");
 	v = v.replace(/\bjosh\b/g, "jerry");
 
