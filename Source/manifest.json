@@ -1,8 +1,8 @@
 {
-	"manifest_version": 2,
-	"name": "Chrome-Trigger-Phrase-Eliminator-Extension",
+	"manifest_version": 1,
+	"name": "What-Putin-really-is",
 	"version": "0.1",
-	"description": "Replaces the name 'Josh' or 'Joshua' with 'Jerry' or 'Jerrold'.",
+	"description": "Keeps things real",
 	"content_scripts":
 	[
 		{
